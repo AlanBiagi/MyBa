@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Mystery+Quest&family=Oswald:wght@200..700&family=Shadows+Into+Light&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("moreCats.png");
+    background-color: #964b0090;
+    background-repeat: repeat-x;
+    max-width: 1200px;
+}
+.container{
+    position: relative;
+    top: 15em;
+    left: 1.7em;
+    width: 20rem;
+    height: 30rem;
+    background-color: #964b00;
+    box-shadow: 5px 10px 1em 1px;
+    border-radius:20px;
+}
+h1{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+    font-size: 80pt;
+    color: red;
+    z-index: 1;
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: hotpink;
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    position: absolute;
+    top: 16.5em;
+    left: 4.5em;
+    width: 15rem;
+    border-radius: 20em;
+    box-shadow: .1em 0em 4em 1px;
+}

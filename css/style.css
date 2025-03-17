@@ -1,13 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    max-width: 100%;
     background-image: url("moreCats.png");
-    background-repeat: repeat-x;
     background-color: #964b0090;
-    width: 100%;
+    background-repeat: repeat-x;
     max-width: 1200px;
 }
 .container{
@@ -41,31 +40,37 @@ body{
     transform: rotate(-90deg);
     border-radius: 20px;
     width: 16.9rem;
-    height: auto;
 }
 h1{
     position: relative;
     top: 20px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
     font-weight: bold;
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 button{
     position: relative;
-    top: 4em;
+    top: 7em;
     background-color: #ffd70090;
     border-radius: 20px ;
     width: 10rem;
     padding: 10px;
     font-size: 50pt;
     margin-left: 45px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    z-index: 1;
 }
-button:hover{
-    
-    background-color: gold;
+.acpted{
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    top: 5rem;
+    left: 7rem;
 }
-
