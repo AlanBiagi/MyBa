@@ -11,5 +11,5 @@ negado.addEventListener('click',()=>{
     function geraPosicao(min, max) {
         return (Math.random() * (max - min) + min) + "%";
     }
-    console.log("opa")
+    console.log("opaa")
 })
