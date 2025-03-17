@@ -7,7 +7,8 @@ body{
     background-image: url("moreCats.png");
     background-color: #964b0090;
     background-repeat: repeat-x;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 100vw;
 }
 .container{
     width: 100%;
