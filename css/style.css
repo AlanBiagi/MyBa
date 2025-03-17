@@ -9,6 +9,7 @@ body{
     background-repeat: repeat-x;
     width: 100%;
     max-width: 100vw;
+    height: 100%;
 }
 .container{
     width: 100%;
@@ -16,7 +17,7 @@ body{
 }
 .main{
     position: relative;
-    top: 15em;
+    top: 10em;
     left: .5em;
     width: 30rem;
     height: 35rem;
@@ -26,7 +27,7 @@ body{
 }
 .moreCats{
     position: absolute;
-    top: -17ch;
+    top: -27ch;
     left: 15ch;
     background-image: url("moreCats2.png");
     transform: rotate(90deg);
